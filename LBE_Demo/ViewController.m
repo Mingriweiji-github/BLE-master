@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LBE_Demo-Bridging-Header.h"
 @interface ViewController ()
 @property (nonatomic, strong) NSMutableArray *mArr;
 
@@ -21,6 +21,7 @@
     
     [self readData];
 }
+
 - (void)readData {
     NSError *error;
     NSString *text = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"LBEData" ofType:@"txt"] encoding:NSUTF8StringEncoding error:&error];

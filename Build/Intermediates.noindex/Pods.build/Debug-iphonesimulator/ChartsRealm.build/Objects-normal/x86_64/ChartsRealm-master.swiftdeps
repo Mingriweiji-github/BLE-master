@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "57c44bddedd689012f344e7148f0cc67"
+build_time: [1554261889, 942691000]
+inputs:
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmBarDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmBarLineScatterCandleBubbleDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmBaseDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmBubbleDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmCandleDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmLineDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmLineRadarDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmLineScatterCandleRadarDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmPieDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmRadarDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Classes/Data/RealmScatterDataSet.swift": !dirty [1554261479, 0]
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/ChartsRealm/ChartsRealm/Supporting Files/RLMSupport.swift": !dirty [1554261479, 0]

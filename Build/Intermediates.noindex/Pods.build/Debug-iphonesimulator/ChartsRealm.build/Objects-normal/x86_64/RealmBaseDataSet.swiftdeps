@@ -1,0 +1,1004 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RealmBaseDataSet"
+provides-nominal:
+- "11ChartsRealm0B11BaseDataSetC"
+provides-member:
+- ["11ChartsRealm0B11BaseDataSetC", ""]
+provides-dynamic-lookup:
+- "_cache"
+- "_xMax"
+- "_xMin"
+- "_xValueField"
+- "_yMax"
+- "_yMin"
+- "_yValueField"
+- "addEntry"
+- "addEntryOrdered"
+- "buildCache"
+- "buildEntryFromResultObject"
+- "calcMinMax"
+- "clearCache"
+- "contains"
+- "entriesForXValue"
+- "entryCount"
+- "entryForIndex"
+- "entryForXValue"
+- "entryIndex"
+- "initialize"
+- "loadResults"
+- "notifyDataSetChanged"
+- "removeEntry"
+- "xMax"
+- "xMin"
+- "xValueField"
+- "yMax"
+- "yMin"
+- "yValueField"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- "-"
+- !private "-="
+- !private "..<"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private "==="
+- !private ">"
+- !private ">="
+- !private "??"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "ChartBaseDataSet"
+- "ChartDataEntry"
+- "ChartDataSetRounding"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NSFastEnumerationIterator"
+- "NSPredicate"
+- !private "NSUIColor"
+- "NSZone"
+- !private "ObjectiveCSupport"
+- "RLMObject"
+- "RLMRealm"
+- "RLMResults"
+- "Realm"
+- "RealmBaseDataSet"
+- "Results"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "abs"
+- !private "fatalError"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "isEqual"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["s13ArrayProtocolP", "reserveCapacity"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s13ArrayProtocolP", "x"]
+- !private ["s13ArrayProtocolP", "y"]
+- !private ["s10ArraySliceV", "isEqual"]
+- !private ["s10ArraySliceV", "x"]
+- !private ["s10ArraySliceV", "y"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEqual"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "subscript"]
+- !private ["SK", "x"]
+- !private ["SK", "y"]
+- ["SB", "greatestFiniteMagnitude"]
+- !private ["SB", "isNaN"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "ChartDataEntry"]
+- ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "NSFastEnumerationIterator"]
+- !private ["s7CVarArgP", "NSUIColor"]
+- !private ["s7CVarArgP", "ObjectiveCSupport"]
+- ["s7CVarArgP", "RLMObject"]
+- ["s7CVarArgP", "RLMRealm"]
+- ["s7CVarArgP", "RLMResults"]
+- ["s7CVarArgP", "Realm"]
+- ["s7CVarArgP", "Results"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_cache"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_results"]
+- !private ["s7CVarArgP", "_xMax"]
+- !private ["s7CVarArgP", "_xMin"]
+- !private ["s7CVarArgP", "_xValueField"]
+- !private ["s7CVarArgP", "_yMax"]
+- !private ["s7CVarArgP", "_yMin"]
+- !private ["s7CVarArgP", "_yValueField"]
+- !private ["s7CVarArgP", "abs"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "buildCache"]
+- !private ["s7CVarArgP", "buildEntryFromResultObject"]
+- !private ["s7CVarArgP", "calcMinMax"]
+- !private ["s7CVarArgP", "colors"]
+- !private ["s7CVarArgP", "copyWithZone"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "entryForIndex"]
+- !private ["s7CVarArgP", "entryForXValue"]
+- !private ["s7CVarArgP", "entryIndex"]
+- !private ["s7CVarArgP", "fatalError"]
+- ["s7CVarArgP", "greatestFiniteMagnitude"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "isEqual"]
+- !private ["s7CVarArgP", "isNaN"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "loadResults"]
+- !private ["s7CVarArgP", "notifyDataSetChanged"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "x"]
+- !private ["s7CVarArgP", "y"]
+- ["6Charts16ChartBaseDataSetC", "AnyObject"]
+- ["6Charts16ChartBaseDataSetC", "Bool"]
+- ["6Charts16ChartBaseDataSetC", "ChartDataEntry"]
+- ["6Charts16ChartBaseDataSetC", "ChartDataSetRounding"]
+- ["6Charts16ChartBaseDataSetC", "Double"]
+- ["6Charts16ChartBaseDataSetC", "Int"]
+- !private ["6Charts16ChartBaseDataSetC", "NSFastEnumerationIterator"]
+- ["6Charts16ChartBaseDataSetC", "NSPredicate"]
+- !private ["6Charts16ChartBaseDataSetC", "NSUIColor"]
+- ["6Charts16ChartBaseDataSetC", "NSZone"]
+- !private ["6Charts16ChartBaseDataSetC", "ObjectiveCSupport"]
+- ["6Charts16ChartBaseDataSetC", "RLMObject"]
+- ["6Charts16ChartBaseDataSetC", "RLMRealm"]
+- ["6Charts16ChartBaseDataSetC", "RLMResults"]
+- ["6Charts16ChartBaseDataSetC", "Realm"]
+- !private ["6Charts16ChartBaseDataSetC", "RealmBaseDataSet"]
+- ["6Charts16ChartBaseDataSetC", "Results"]
+- ["6Charts16ChartBaseDataSetC", "String"]
+- ["6Charts16ChartBaseDataSetC", ""]
+- ["6Charts16ChartBaseDataSetC", "_cache"]
+- !private ["6Charts16ChartBaseDataSetC", "_results"]
+- ["6Charts16ChartBaseDataSetC", "_xMax"]
+- ["6Charts16ChartBaseDataSetC", "_xMin"]
+- ["6Charts16ChartBaseDataSetC", "_xValueField"]
+- ["6Charts16ChartBaseDataSetC", "_yMax"]
+- ["6Charts16ChartBaseDataSetC", "_yMin"]
+- ["6Charts16ChartBaseDataSetC", "_yValueField"]
+- !private ["6Charts16ChartBaseDataSetC", "abs"]
+- ["6Charts16ChartBaseDataSetC", "addEntry"]
+- ["6Charts16ChartBaseDataSetC", "addEntryOrdered"]
+- ["6Charts16ChartBaseDataSetC", "buildCache"]
+- !private ["6Charts16ChartBaseDataSetC", "buildEntryFromResultObject"]
+- ["6Charts16ChartBaseDataSetC", "calcMinMax"]
+- ["6Charts16ChartBaseDataSetC", "clearCache"]
+- !private ["6Charts16ChartBaseDataSetC", "colors"]
+- ["6Charts16ChartBaseDataSetC", "contains"]
+- ["6Charts16ChartBaseDataSetC", "copyWithZone"]
+- ["6Charts16ChartBaseDataSetC", "entriesForXValue"]
+- ["6Charts16ChartBaseDataSetC", "entryCount"]
+- ["6Charts16ChartBaseDataSetC", "entryForIndex"]
+- ["6Charts16ChartBaseDataSetC", "entryForXValue"]
+- ["6Charts16ChartBaseDataSetC", "entryIndex"]
+- !private ["6Charts16ChartBaseDataSetC", "fatalError"]
+- ["6Charts16ChartBaseDataSetC", "init"]
+- ["6Charts16ChartBaseDataSetC", "initialize"]
+- !private ["6Charts16ChartBaseDataSetC", "label"]
+- !private ["6Charts16ChartBaseDataSetC", "loadResults"]
+- ["6Charts16ChartBaseDataSetC", "notifyDataSetChanged"]
+- ["6Charts16ChartBaseDataSetC", "removeEntry"]
+- ["6Charts16ChartBaseDataSetC", "xMax"]
+- ["6Charts16ChartBaseDataSetC", "xMin"]
+- ["6Charts16ChartBaseDataSetC", "xValueField"]
+- ["6Charts16ChartBaseDataSetC", "yMax"]
+- ["6Charts16ChartBaseDataSetC", "yMin"]
+- ["6Charts16ChartBaseDataSetC", "yValueField"]
+- !private ["6Charts14ChartDataEntryC", "isEqual"]
+- !private ["6Charts14ChartDataEntryC", "x"]
+- !private ["6Charts14ChartDataEntryC", "y"]
+- !private ["6Charts18ChartDataEntryBaseC", "isEqual"]
+- !private ["6Charts18ChartDataEntryBaseC", "x"]
+- !private ["6Charts18ChartDataEntryBaseC", "y"]
+- !private ["6Charts20ChartDataSetRoundingO", "closest"]
+- !private ["6Charts20ChartDataSetRoundingO", "down"]
+- !private ["6Charts20ChartDataSetRoundingO", "up"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEqual"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "x"]
+- !private ["Sl", "y"]
+- ["SL", "greatestFiniteMagnitude"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "isNaN"]
+- ["s28CustomDebugStringConvertibleP", "ChartDataEntry"]
+- ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFastEnumerationIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "NSUIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "ObjectiveCSupport"]
+- ["s28CustomDebugStringConvertibleP", "RLMObject"]
+- ["s28CustomDebugStringConvertibleP", "RLMRealm"]
+- ["s28CustomDebugStringConvertibleP", "RLMResults"]
+- ["s28CustomDebugStringConvertibleP", "Realm"]
+- ["s28CustomDebugStringConvertibleP", "Results"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_cache"]
+- !private ["s28CustomDebugStringConvertibleP", "_results"]
+- !private ["s28CustomDebugStringConvertibleP", "_xMax"]
+- !private ["s28CustomDebugStringConvertibleP", "_xMin"]
+- !private ["s28CustomDebugStringConvertibleP", "_xValueField"]
+- !private ["s28CustomDebugStringConvertibleP", "_yMax"]
+- !private ["s28CustomDebugStringConvertibleP", "_yMin"]
+- !private ["s28CustomDebugStringConvertibleP", "_yValueField"]
+- !private ["s28CustomDebugStringConvertibleP", "abs"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "buildCache"]
+- !private ["s28CustomDebugStringConvertibleP", "buildEntryFromResultObject"]
+- !private ["s28CustomDebugStringConvertibleP", "calcMinMax"]
+- !private ["s28CustomDebugStringConvertibleP", "colors"]
+- !private ["s28CustomDebugStringConvertibleP", "copyWithZone"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "entryForIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "entryForXValue"]
+- !private ["s28CustomDebugStringConvertibleP", "entryIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- ["s28CustomDebugStringConvertibleP", "greatestFiniteMagnitude"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "isEqual"]
+- !private ["s28CustomDebugStringConvertibleP", "isNaN"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "loadResults"]
+- !private ["s28CustomDebugStringConvertibleP", "notifyDataSetChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "greatestFiniteMagnitude"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isNaN"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEqual"]
+- !private ["s17CustomReflectableP", "isNaN"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- ["s23CustomStringConvertibleP", "ChartDataEntry"]
+- ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "NSFastEnumerationIterator"]
+- !private ["s23CustomStringConvertibleP", "NSUIColor"]
+- !private ["s23CustomStringConvertibleP", "ObjectiveCSupport"]
+- ["s23CustomStringConvertibleP", "RLMObject"]
+- ["s23CustomStringConvertibleP", "RLMRealm"]
+- ["s23CustomStringConvertibleP", "RLMResults"]
+- ["s23CustomStringConvertibleP", "Realm"]
+- ["s23CustomStringConvertibleP", "Results"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_cache"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_results"]
+- !private ["s23CustomStringConvertibleP", "_xMax"]
+- !private ["s23CustomStringConvertibleP", "_xMin"]
+- !private ["s23CustomStringConvertibleP", "_xValueField"]
+- !private ["s23CustomStringConvertibleP", "_yMax"]
+- !private ["s23CustomStringConvertibleP", "_yMin"]
+- !private ["s23CustomStringConvertibleP", "_yValueField"]
+- !private ["s23CustomStringConvertibleP", "abs"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "buildCache"]
+- !private ["s23CustomStringConvertibleP", "buildEntryFromResultObject"]
+- !private ["s23CustomStringConvertibleP", "calcMinMax"]
+- !private ["s23CustomStringConvertibleP", "colors"]
+- !private ["s23CustomStringConvertibleP", "copyWithZone"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "entryForIndex"]
+- !private ["s23CustomStringConvertibleP", "entryForXValue"]
+- !private ["s23CustomStringConvertibleP", "entryIndex"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialize"]
+- !private ["s23CustomStringConvertibleP", "isEqual"]
+- !private ["s23CustomStringConvertibleP", "isNaN"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "loadResults"]
+- !private ["s23CustomStringConvertibleP", "notifyDataSetChanged"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "x"]
+- !private ["s23CustomStringConvertibleP", "y"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- ["Se", "greatestFiniteMagnitude"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isNaN"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "subscript"]
+- ["Sd", "greatestFiniteMagnitude"]
+- !private ["Sd", "isNaN"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- ["SE", "greatestFiniteMagnitude"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isNaN"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "subscript"]
+- ["SQ", "ChartDataEntry"]
+- ["SQ", "Double"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "NSFastEnumerationIterator"]
+- !private ["SQ", "NSUIColor"]
+- !private ["SQ", "ObjectiveCSupport"]
+- ["SQ", "RLMObject"]
+- ["SQ", "RLMRealm"]
+- ["SQ", "RLMResults"]
+- ["SQ", "Realm"]
+- ["SQ", "Results"]
+- ["SQ", ""]
+- !private ["SQ", "_cache"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_results"]
+- !private ["SQ", "_xMax"]
+- !private ["SQ", "_xMin"]
+- !private ["SQ", "_xValueField"]
+- !private ["SQ", "_yMax"]
+- !private ["SQ", "_yMin"]
+- !private ["SQ", "_yValueField"]
+- !private ["SQ", "abs"]
+- !private ["SQ", "append"]
+- !private ["SQ", "buildCache"]
+- !private ["SQ", "buildEntryFromResultObject"]
+- !private ["SQ", "calcMinMax"]
+- !private ["SQ", "closest"]
+- !private ["SQ", "colors"]
+- !private ["SQ", "copyWithZone"]
+- !private ["SQ", "count"]
+- !private ["SQ", "down"]
+- !private ["SQ", "entryForIndex"]
+- !private ["SQ", "entryForXValue"]
+- !private ["SQ", "entryIndex"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "greatestFiniteMagnitude"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- !private ["SQ", "isEqual"]
+- !private ["SQ", "isNaN"]
+- !private ["SQ", "label"]
+- !private ["SQ", "loadResults"]
+- !private ["SQ", "notifyDataSetChanged"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "up"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEqual"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "x"]
+- !private ["s25ExpressibleByArrayLiteralP", "y"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "isNaN"]
+- ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isNaN"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "isNaN"]
+- ["SH", "ChartDataEntry"]
+- ["SH", "Double"]
+- !private ["SH", "Int"]
+- !private ["SH", "NSFastEnumerationIterator"]
+- !private ["SH", "NSUIColor"]
+- !private ["SH", "ObjectiveCSupport"]
+- ["SH", "RLMObject"]
+- ["SH", "RLMRealm"]
+- ["SH", "RLMResults"]
+- ["SH", "Realm"]
+- ["SH", "Results"]
+- ["SH", ""]
+- !private ["SH", "_cache"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_results"]
+- !private ["SH", "_xMax"]
+- !private ["SH", "_xMin"]
+- !private ["SH", "_xValueField"]
+- !private ["SH", "_yMax"]
+- !private ["SH", "_yMin"]
+- !private ["SH", "_yValueField"]
+- !private ["SH", "abs"]
+- !private ["SH", "append"]
+- !private ["SH", "buildCache"]
+- !private ["SH", "buildEntryFromResultObject"]
+- !private ["SH", "calcMinMax"]
+- !private ["SH", "closest"]
+- !private ["SH", "colors"]
+- !private ["SH", "copyWithZone"]
+- !private ["SH", "count"]
+- !private ["SH", "down"]
+- !private ["SH", "entryForIndex"]
+- !private ["SH", "entryForXValue"]
+- !private ["SH", "entryIndex"]
+- !private ["SH", "fatalError"]
+- ["SH", "greatestFiniteMagnitude"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "initialize"]
+- !private ["SH", "isEqual"]
+- !private ["SH", "isNaN"]
+- !private ["SH", "label"]
+- !private ["SH", "loadResults"]
+- !private ["SH", "notifyDataSetChanged"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "subscript"]
+- !private ["SH", "up"]
+- !private ["SH", "x"]
+- !private ["SH", "y"]
+- ["6Charts13IChartDataSetP", "ChartDataEntry"]
+- ["6Charts13IChartDataSetP", "Double"]
+- !private ["6Charts13IChartDataSetP", "Int"]
+- !private ["6Charts13IChartDataSetP", "NSFastEnumerationIterator"]
+- !private ["6Charts13IChartDataSetP", "NSUIColor"]
+- !private ["6Charts13IChartDataSetP", "ObjectiveCSupport"]
+- ["6Charts13IChartDataSetP", "RLMObject"]
+- ["6Charts13IChartDataSetP", "RLMRealm"]
+- ["6Charts13IChartDataSetP", "RLMResults"]
+- ["6Charts13IChartDataSetP", "Realm"]
+- ["6Charts13IChartDataSetP", "Results"]
+- ["6Charts13IChartDataSetP", ""]
+- !private ["6Charts13IChartDataSetP", "_cache"]
+- !private ["6Charts13IChartDataSetP", "_results"]
+- !private ["6Charts13IChartDataSetP", "_xMax"]
+- !private ["6Charts13IChartDataSetP", "_xMin"]
+- !private ["6Charts13IChartDataSetP", "_xValueField"]
+- !private ["6Charts13IChartDataSetP", "_yMax"]
+- !private ["6Charts13IChartDataSetP", "_yMin"]
+- !private ["6Charts13IChartDataSetP", "_yValueField"]
+- !private ["6Charts13IChartDataSetP", "abs"]
+- !private ["6Charts13IChartDataSetP", "buildCache"]
+- !private ["6Charts13IChartDataSetP", "buildEntryFromResultObject"]
+- !private ["6Charts13IChartDataSetP", "calcMinMax"]
+- !private ["6Charts13IChartDataSetP", "colors"]
+- !private ["6Charts13IChartDataSetP", "copyWithZone"]
+- !private ["6Charts13IChartDataSetP", "entryForIndex"]
+- !private ["6Charts13IChartDataSetP", "entryForXValue"]
+- !private ["6Charts13IChartDataSetP", "entryIndex"]
+- !private ["6Charts13IChartDataSetP", "fatalError"]
+- !private ["6Charts13IChartDataSetP", "init"]
+- !private ["6Charts13IChartDataSetP", "initialize"]
+- !private ["6Charts13IChartDataSetP", "label"]
+- !private ["6Charts13IChartDataSetP", "loadResults"]
+- !private ["6Charts13IChartDataSetP", "notifyDataSetChanged"]
+- ["Si", "init"]
+- !private ["s22LazyCollectionProtocolP", "x"]
+- !private ["s20LazySequenceProtocolP", "x"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isNaN"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- ["SM", "init"]
+- !private ["SM", "isEqual"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "subscript"]
+- !private ["SM", "x"]
+- !private ["SM", "y"]
+- !private ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "ChartDataEntry"]
+- ["So9NSCopyingP", "Double"]
+- !private ["So9NSCopyingP", "Int"]
+- !private ["So9NSCopyingP", "NSFastEnumerationIterator"]
+- !private ["So9NSCopyingP", "NSUIColor"]
+- !private ["So9NSCopyingP", "ObjectiveCSupport"]
+- ["So9NSCopyingP", "RLMObject"]
+- ["So9NSCopyingP", "RLMRealm"]
+- ["So9NSCopyingP", "RLMResults"]
+- ["So9NSCopyingP", "Realm"]
+- ["So9NSCopyingP", "Results"]
+- ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "_cache"]
+- !private ["So9NSCopyingP", "_results"]
+- !private ["So9NSCopyingP", "_xMax"]
+- !private ["So9NSCopyingP", "_xMin"]
+- !private ["So9NSCopyingP", "_xValueField"]
+- !private ["So9NSCopyingP", "_yMax"]
+- !private ["So9NSCopyingP", "_yMin"]
+- !private ["So9NSCopyingP", "_yValueField"]
+- !private ["So9NSCopyingP", "abs"]
+- !private ["So9NSCopyingP", "buildCache"]
+- !private ["So9NSCopyingP", "buildEntryFromResultObject"]
+- !private ["So9NSCopyingP", "calcMinMax"]
+- !private ["So9NSCopyingP", "colors"]
+- !private ["So9NSCopyingP", "copyWithZone"]
+- !private ["So9NSCopyingP", "entryForIndex"]
+- !private ["So9NSCopyingP", "entryForXValue"]
+- !private ["So9NSCopyingP", "entryIndex"]
+- !private ["So9NSCopyingP", "fatalError"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "initialize"]
+- !private ["So9NSCopyingP", "isEqual"]
+- !private ["So9NSCopyingP", "label"]
+- !private ["So9NSCopyingP", "loadResults"]
+- !private ["So9NSCopyingP", "notifyDataSetChanged"]
+- !private ["So9NSCopyingP", "x"]
+- !private ["So9NSCopyingP", "y"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "ChartDataEntry"]
+- ["So8NSObjectC", "ChartDataSetRounding"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSFastEnumerationIterator"]
+- ["So8NSObjectC", "NSPredicate"]
+- !private ["So8NSObjectC", "NSUIColor"]
+- ["So8NSObjectC", "NSZone"]
+- !private ["So8NSObjectC", "ObjectiveCSupport"]
+- ["So8NSObjectC", "RLMObject"]
+- ["So8NSObjectC", "RLMRealm"]
+- ["So8NSObjectC", "RLMResults"]
+- ["So8NSObjectC", "Realm"]
+- !private ["So8NSObjectC", "RealmBaseDataSet"]
+- ["So8NSObjectC", "Results"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "_cache"]
+- !private ["So8NSObjectC", "_results"]
+- ["So8NSObjectC", "_xMax"]
+- ["So8NSObjectC", "_xMin"]
+- ["So8NSObjectC", "_xValueField"]
+- ["So8NSObjectC", "_yMax"]
+- ["So8NSObjectC", "_yMin"]
+- ["So8NSObjectC", "_yValueField"]
+- !private ["So8NSObjectC", "abs"]
+- ["So8NSObjectC", "addEntry"]
+- ["So8NSObjectC", "addEntryOrdered"]
+- ["So8NSObjectC", "buildCache"]
+- !private ["So8NSObjectC", "buildEntryFromResultObject"]
+- ["So8NSObjectC", "calcMinMax"]
+- ["So8NSObjectC", "clearCache"]
+- !private ["So8NSObjectC", "colors"]
+- ["So8NSObjectC", "contains"]
+- ["So8NSObjectC", "copyWithZone"]
+- ["So8NSObjectC", "entriesForXValue"]
+- ["So8NSObjectC", "entryCount"]
+- ["So8NSObjectC", "entryForIndex"]
+- ["So8NSObjectC", "entryForXValue"]
+- ["So8NSObjectC", "entryIndex"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initialize"]
+- !private ["So8NSObjectC", "isEqual"]
+- !private ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "loadResults"]
+- ["So8NSObjectC", "notifyDataSetChanged"]
+- ["So8NSObjectC", "removeEntry"]
+- !private ["So8NSObjectC", "x"]
+- ["So8NSObjectC", "xMax"]
+- ["So8NSObjectC", "xMin"]
+- ["So8NSObjectC", "xValueField"]
+- !private ["So8NSObjectC", "y"]
+- ["So8NSObjectC", "yMax"]
+- ["So8NSObjectC", "yMin"]
+- ["So8NSObjectC", "yValueField"]
+- ["So8NSObjectP", "ChartDataEntry"]
+- ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "NSFastEnumerationIterator"]
+- !private ["So8NSObjectP", "NSUIColor"]
+- !private ["So8NSObjectP", "ObjectiveCSupport"]
+- ["So8NSObjectP", "RLMObject"]
+- ["So8NSObjectP", "RLMRealm"]
+- ["So8NSObjectP", "RLMResults"]
+- ["So8NSObjectP", "Realm"]
+- ["So8NSObjectP", "Results"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_cache"]
+- !private ["So8NSObjectP", "_results"]
+- !private ["So8NSObjectP", "_xMax"]
+- !private ["So8NSObjectP", "_xMin"]
+- !private ["So8NSObjectP", "_xValueField"]
+- !private ["So8NSObjectP", "_yMax"]
+- !private ["So8NSObjectP", "_yMin"]
+- !private ["So8NSObjectP", "_yValueField"]
+- !private ["So8NSObjectP", "abs"]
+- !private ["So8NSObjectP", "buildCache"]
+- !private ["So8NSObjectP", "buildEntryFromResultObject"]
+- !private ["So8NSObjectP", "calcMinMax"]
+- !private ["So8NSObjectP", "colors"]
+- !private ["So8NSObjectP", "copyWithZone"]
+- !private ["So8NSObjectP", "entryForIndex"]
+- !private ["So8NSObjectP", "entryForXValue"]
+- !private ["So8NSObjectP", "entryIndex"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialize"]
+- !private ["So8NSObjectP", "isEqual"]
+- !private ["So8NSObjectP", "label"]
+- !private ["So8NSObjectP", "loadResults"]
+- !private ["So8NSObjectP", "notifyDataSetChanged"]
+- !private ["So8NSObjectP", "x"]
+- !private ["So8NSObjectP", "y"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["Sj", "greatestFiniteMagnitude"]
+- !private ["Sj", "init"]
+- !private ["Sj", "isNaN"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- ["Sk", "init"]
+- !private ["Sk", "isEqual"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "x"]
+- !private ["Sk", "y"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEqual"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "x"]
+- !private ["Sm", "y"]
+- !private ["SY", "closest"]
+- !private ["SY", "down"]
+- !private ["SY", "up"]
+- ["11ChartsRealm0B11BaseDataSetC", "AnyObject"]
+- ["11ChartsRealm0B11BaseDataSetC", "Bool"]
+- ["11ChartsRealm0B11BaseDataSetC", "ChartDataEntry"]
+- ["11ChartsRealm0B11BaseDataSetC", "ChartDataSetRounding"]
+- ["11ChartsRealm0B11BaseDataSetC", "Double"]
+- ["11ChartsRealm0B11BaseDataSetC", "Int"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "NSFastEnumerationIterator"]
+- ["11ChartsRealm0B11BaseDataSetC", "NSPredicate"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "NSUIColor"]
+- ["11ChartsRealm0B11BaseDataSetC", "NSZone"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "ObjectiveCSupport"]
+- ["11ChartsRealm0B11BaseDataSetC", "RLMObject"]
+- ["11ChartsRealm0B11BaseDataSetC", "RLMRealm"]
+- ["11ChartsRealm0B11BaseDataSetC", "RLMResults"]
+- ["11ChartsRealm0B11BaseDataSetC", "Realm"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "RealmBaseDataSet"]
+- ["11ChartsRealm0B11BaseDataSetC", "Results"]
+- ["11ChartsRealm0B11BaseDataSetC", "String"]
+- ["11ChartsRealm0B11BaseDataSetC", "_cache"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "_results"]
+- ["11ChartsRealm0B11BaseDataSetC", "_xMax"]
+- ["11ChartsRealm0B11BaseDataSetC", "_xMin"]
+- ["11ChartsRealm0B11BaseDataSetC", "_xValueField"]
+- ["11ChartsRealm0B11BaseDataSetC", "_yMax"]
+- ["11ChartsRealm0B11BaseDataSetC", "_yMin"]
+- ["11ChartsRealm0B11BaseDataSetC", "_yValueField"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "abs"]
+- ["11ChartsRealm0B11BaseDataSetC", "addEntry"]
+- ["11ChartsRealm0B11BaseDataSetC", "addEntryOrdered"]
+- ["11ChartsRealm0B11BaseDataSetC", "buildCache"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "buildEntryFromResultObject"]
+- ["11ChartsRealm0B11BaseDataSetC", "calcMinMax"]
+- ["11ChartsRealm0B11BaseDataSetC", "clearCache"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "colors"]
+- ["11ChartsRealm0B11BaseDataSetC", "contains"]
+- ["11ChartsRealm0B11BaseDataSetC", "copyWithZone"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "deinit"]
+- ["11ChartsRealm0B11BaseDataSetC", "entriesForXValue"]
+- ["11ChartsRealm0B11BaseDataSetC", "entryCount"]
+- ["11ChartsRealm0B11BaseDataSetC", "entryForIndex"]
+- ["11ChartsRealm0B11BaseDataSetC", "entryForXValue"]
+- ["11ChartsRealm0B11BaseDataSetC", "entryIndex"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "fatalError"]
+- ["11ChartsRealm0B11BaseDataSetC", "init"]
+- ["11ChartsRealm0B11BaseDataSetC", "initialize"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "label"]
+- !private ["11ChartsRealm0B11BaseDataSetC", "loadResults"]
+- ["11ChartsRealm0B11BaseDataSetC", "notifyDataSetChanged"]
+- ["11ChartsRealm0B11BaseDataSetC", "removeEntry"]
+- ["11ChartsRealm0B11BaseDataSetC", "xMax"]
+- ["11ChartsRealm0B11BaseDataSetC", "xMin"]
+- ["11ChartsRealm0B11BaseDataSetC", "xValueField"]
+- ["11ChartsRealm0B11BaseDataSetC", "yMax"]
+- ["11ChartsRealm0B11BaseDataSetC", "yMin"]
+- ["11ChartsRealm0B11BaseDataSetC", "yValueField"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEqual"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "subscript"]
+- !private ["ST", "x"]
+- !private ["ST", "y"]
+- !private ["SZ", "init"]
+- ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "isNaN"]
+- !private ["s5SliceV", "x"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "greatestFiniteMagnitude"]
+- !private ["Sx", "init"]
+- !private ["Sx", "isNaN"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So7UIColorC", "init"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "isNaN"]
+- ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "isNaN"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEqual"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "x"]
+- !private ["s24_DestructorSafeContainerP", "y"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "isNaN"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "isNaN"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "greatestFiniteMagnitude"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isNaN"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ChartDataEntry"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFastEnumerationIterator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ObjectiveCSupport"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "RLMObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "RLMRealm"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "RLMResults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Results"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_cache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_results"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_xMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_xMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_xValueField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_yMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_yMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_yValueField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "abs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildCache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildEntryFromResultObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calcMinMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copyWithZone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entryForIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entryForXValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entryIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEqual"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadResults"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notifyDataSetChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "y"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isNaN"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- "SK"
+- "SB"
+- !private "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- "6Charts16ChartBaseDataSetC"
+- !private "6Charts14ChartDataEntryC"
+- !private "6Charts18ChartDataEntryBaseC"
+- !private "6Charts20ChartDataSetRoundingO"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SF"
+- "SH"
+- "6Charts13IChartDataSetP"
+- "Si"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- !private "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "Sj"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "11ChartsRealm0B11BaseDataSetC"
+- "ST"
+- !private "SZ"
+- "s13SignedNumericP"
+- !private "s5SliceV"
+- !private "s12StaticStringV"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So7UIColorC"
+- !private "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/Target Support Files/ChartsRealm/ChartsRealm-umbrella.h"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/mli/Desktop/Develope/VLogVideo/Pods/Headers/Public/RxAtomic/RxAtomic.modulemap"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ChartsRealm.build/unextended-module.modulemap"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/module.modulemap"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+- "/Users/mli/Desktop/Develope/VLogVideo/Pods/Headers/Public/RxSwift/RxSwift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d2c6cfec975fb149beb1db8bb9c49302"

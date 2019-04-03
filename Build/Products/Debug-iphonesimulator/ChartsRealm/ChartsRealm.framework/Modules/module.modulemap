@@ -1,0 +1,11 @@
+framework module ChartsRealm {
+  umbrella header "ChartsRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ChartsRealm.Swift {
+    header "ChartsRealm-Swift.h"
+    requires objc
+}

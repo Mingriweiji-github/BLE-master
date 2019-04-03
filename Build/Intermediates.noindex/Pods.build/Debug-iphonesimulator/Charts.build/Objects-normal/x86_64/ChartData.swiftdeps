@@ -1,0 +1,917 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartData"
+provides-nominal:
+- "6Charts9ChartDataC"
+provides-member:
+- ["6Charts9ChartDataC", ""]
+provides-dynamic-lookup:
+- "accessibilityEntryLabelPrefix"
+- "accessibilityEntryLabelSuffix"
+- "accessibilityEntryLabelSuffixIsCount"
+- "addDataSet"
+- "addEntry"
+- "calcMinMax"
+- "calcMinMaxY"
+- "clearValues"
+- "contains"
+- "dataSetCount"
+- "dataSets"
+- "entryCount"
+- "entryForHighlight"
+- "getColors"
+- "getDataSetByIndex"
+- "getDataSetByLabel"
+- "getDataSetForEntry"
+- "getFirstLeft"
+- "getFirstRight"
+- "getYMax"
+- "getYMin"
+- "highlightEnabled"
+- "indexOfDataSet"
+- "isHighlightEnabled"
+- "maxEntryCountSet"
+- "notifyDataChanged"
+- "removeDataSet"
+- "removeDataSetByIndex"
+- "removeEntry"
+- "setDrawValues"
+- "setValueFont"
+- "setValueFormatter"
+- "setValueTextColor"
+- "xMax"
+- "xMin"
+- "yMax"
+- "yMin"
+depends-top-level:
+- !private "!"
+- !private "!=="
+- !private "&&"
+- !private "+="
+- "-"
+- !private "..<"
+- !private "<"
+- !private "=="
+- !private "==="
+- !private ">"
+- !private ">="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ChartData"
+- "ChartDataEntry"
+- !private "ComparisonResult"
+- "Double"
+- !private "FloatLiteralType"
+- "Highlight"
+- "IChartDataSet"
+- "IValueFormatter"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "NSUIColor"
+- "NSUIFont"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- "YAxis"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "colors"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "entryForXValue"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "label"]
+- !private ["s13ArrayProtocolP", "remove"]
+- !private ["s13ArrayProtocolP", "removeAll"]
+- !private ["s13ArrayProtocolP", "removeEntry"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s10ArraySliceV", "colors"]
+- !private ["s10ArraySliceV", "entryForXValue"]
+- !private ["s10ArraySliceV", "label"]
+- !private ["s10ArraySliceV", "removeEntry"]
+- ["6Charts8AxisBaseC", "AxisDependency"]
+- !private ["6Charts5YAxisC14AxisDependencyO", "deinit"]
+- !private ["6Charts5YAxisC14AxisDependencyO", "left"]
+- !private ["6Charts5YAxisC14AxisDependencyO", "right"]
+- !private ["SK", "append"]
+- !private ["SK", "caseInsensitiveCompare"]
+- !private ["SK", "colors"]
+- !private ["SK", "count"]
+- !private ["SK", "entryForXValue"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "label"]
+- !private ["SK", "remove"]
+- !private ["SK", "removeAll"]
+- !private ["SK", "removeEntry"]
+- !private ["SK", "subscript"]
+- ["SB", "greatestFiniteMagnitude"]
+- !private ["SB", "nan"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "AxisDependency"]
+- !private ["s7CVarArgP", "ComparisonResult"]
+- ["s7CVarArgP", "Double"]
+- ["s7CVarArgP", "IChartDataSet"]
+- !private ["s7CVarArgP", "NSUIColor"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_dataSets"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_leftAxisMax"]
+- !private ["s7CVarArgP", "_leftAxisMin"]
+- !private ["s7CVarArgP", "_rightAxisMax"]
+- !private ["s7CVarArgP", "_rightAxisMin"]
+- !private ["s7CVarArgP", "_xMax"]
+- !private ["s7CVarArgP", "_xMin"]
+- !private ["s7CVarArgP", "_yMax"]
+- !private ["s7CVarArgP", "_yMin"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "calcMinMax"]
+- !private ["s7CVarArgP", "caseInsensitiveCompare"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataSetIndex"]
+- !private ["s7CVarArgP", "dataSets"]
+- !private ["s7CVarArgP", "getDataSetIndexByLabel"]
+- !private ["s7CVarArgP", "getFirstLeft"]
+- !private ["s7CVarArgP", "getFirstRight"]
+- ["s7CVarArgP", "greatestFiniteMagnitude"]
+- !private ["s7CVarArgP", "highlightEnabled"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "nan"]
+- !private ["s7CVarArgP", "notifyDataChanged"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeDataSetByIndex"]
+- !private ["s7CVarArgP", "removeEntry"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "x"]
+- !private ["s7CVarArgP", "y"]
+- ["6Charts9ChartDataC", "Bool"]
+- ["6Charts9ChartDataC", "ChartDataEntry"]
+- !private ["6Charts9ChartDataC", "ComparisonResult"]
+- ["6Charts9ChartDataC", "Double"]
+- ["6Charts9ChartDataC", "Highlight"]
+- ["6Charts9ChartDataC", "IChartDataSet"]
+- ["6Charts9ChartDataC", "IValueFormatter"]
+- ["6Charts9ChartDataC", "Int"]
+- ["6Charts9ChartDataC", "NSUIColor"]
+- ["6Charts9ChartDataC", "NSUIFont"]
+- ["6Charts9ChartDataC", "String"]
+- ["6Charts9ChartDataC", "YAxis"]
+- ["6Charts9ChartDataC", "_dataSets"]
+- ["6Charts9ChartDataC", "_leftAxisMax"]
+- ["6Charts9ChartDataC", "_leftAxisMin"]
+- ["6Charts9ChartDataC", "_rightAxisMax"]
+- ["6Charts9ChartDataC", "_rightAxisMin"]
+- ["6Charts9ChartDataC", "_xMax"]
+- ["6Charts9ChartDataC", "_xMin"]
+- ["6Charts9ChartDataC", "_yMax"]
+- ["6Charts9ChartDataC", "_yMin"]
+- ["6Charts9ChartDataC", "accessibilityEntryLabelPrefix"]
+- ["6Charts9ChartDataC", "accessibilityEntryLabelSuffix"]
+- ["6Charts9ChartDataC", "accessibilityEntryLabelSuffixIsCount"]
+- ["6Charts9ChartDataC", "addDataSet"]
+- ["6Charts9ChartDataC", "addEntry"]
+- ["6Charts9ChartDataC", "calcMinMax"]
+- ["6Charts9ChartDataC", "calcMinMaxY"]
+- ["6Charts9ChartDataC", "clearValues"]
+- ["6Charts9ChartDataC", "contains"]
+- ["6Charts9ChartDataC", "dataSetCount"]
+- ["6Charts9ChartDataC", "dataSetLabels"]
+- ["6Charts9ChartDataC", "dataSets"]
+- ["6Charts9ChartDataC", "deinit"]
+- ["6Charts9ChartDataC", "entryCount"]
+- ["6Charts9ChartDataC", "entryForHighlight"]
+- ["6Charts9ChartDataC", "getColors"]
+- ["6Charts9ChartDataC", "getDataSetByIndex"]
+- ["6Charts9ChartDataC", "getDataSetByLabel"]
+- ["6Charts9ChartDataC", "getDataSetForEntry"]
+- ["6Charts9ChartDataC", "getDataSetIndexByLabel"]
+- ["6Charts9ChartDataC", "getFirstLeft"]
+- ["6Charts9ChartDataC", "getFirstRight"]
+- ["6Charts9ChartDataC", "getYMax"]
+- ["6Charts9ChartDataC", "getYMin"]
+- ["6Charts9ChartDataC", "highlightEnabled"]
+- ["6Charts9ChartDataC", "indexOfDataSet"]
+- ["6Charts9ChartDataC", "init"]
+- ["6Charts9ChartDataC", "initialize"]
+- ["6Charts9ChartDataC", "isHighlightEnabled"]
+- ["6Charts9ChartDataC", "maxEntryCountSet"]
+- ["6Charts9ChartDataC", "notifyDataChanged"]
+- !private ["6Charts9ChartDataC", "print"]
+- ["6Charts9ChartDataC", "removeDataSet"]
+- ["6Charts9ChartDataC", "removeDataSetByIndex"]
+- ["6Charts9ChartDataC", "removeEntry"]
+- ["6Charts9ChartDataC", "setDrawValues"]
+- ["6Charts9ChartDataC", "setValueFont"]
+- ["6Charts9ChartDataC", "setValueFormatter"]
+- ["6Charts9ChartDataC", "setValueTextColor"]
+- ["6Charts9ChartDataC", "xMax"]
+- ["6Charts9ChartDataC", "xMin"]
+- ["6Charts9ChartDataC", "yMax"]
+- ["6Charts9ChartDataC", "yMin"]
+- !private ["6Charts14ChartDataEntryC", "deinit"]
+- !private ["6Charts14ChartDataEntryC", "x"]
+- !private ["6Charts14ChartDataEntryC", "y"]
+- !private ["6Charts18ChartDataEntryBaseC", "x"]
+- !private ["6Charts18ChartDataEntryBaseC", "y"]
+- !private ["Sl", "append"]
+- !private ["Sl", "caseInsensitiveCompare"]
+- !private ["Sl", "colors"]
+- !private ["Sl", "count"]
+- !private ["Sl", "entryForXValue"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "label"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "removeEntry"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "caseInsensitiveCompare"]
+- ["SL", "greatestFiniteMagnitude"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "nan"]
+- !private ["So18NSComparisonResultV", "orderedSame"]
+- ["6Charts13ComponentBaseC", "AxisDependency"]
+- ["s28CustomDebugStringConvertibleP", "AxisDependency"]
+- !private ["s28CustomDebugStringConvertibleP", "ComparisonResult"]
+- ["s28CustomDebugStringConvertibleP", "Double"]
+- ["s28CustomDebugStringConvertibleP", "IChartDataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "NSUIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_dataSets"]
+- !private ["s28CustomDebugStringConvertibleP", "_leftAxisMax"]
+- !private ["s28CustomDebugStringConvertibleP", "_leftAxisMin"]
+- !private ["s28CustomDebugStringConvertibleP", "_rightAxisMax"]
+- !private ["s28CustomDebugStringConvertibleP", "_rightAxisMin"]
+- !private ["s28CustomDebugStringConvertibleP", "_xMax"]
+- !private ["s28CustomDebugStringConvertibleP", "_xMin"]
+- !private ["s28CustomDebugStringConvertibleP", "_yMax"]
+- !private ["s28CustomDebugStringConvertibleP", "_yMin"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "calcMinMax"]
+- !private ["s28CustomDebugStringConvertibleP", "caseInsensitiveCompare"]
+- !private ["s28CustomDebugStringConvertibleP", "colors"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSetIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSets"]
+- !private ["s28CustomDebugStringConvertibleP", "entryForXValue"]
+- !private ["s28CustomDebugStringConvertibleP", "getDataSetIndexByLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "getFirstLeft"]
+- !private ["s28CustomDebugStringConvertibleP", "getFirstRight"]
+- ["s28CustomDebugStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "highlightEnabled"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "nan"]
+- !private ["s28CustomDebugStringConvertibleP", "notifyDataChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeDataSetByIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "removeEntry"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "caseInsensitiveCompare"]
+- ["s29CustomPlaygroundQuickLookableP", "greatestFiniteMagnitude"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "nan"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "caseInsensitiveCompare"]
+- !private ["s17CustomReflectableP", "colors"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "entryForXValue"]
+- ["s17CustomReflectableP", "greatestFiniteMagnitude"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "label"]
+- !private ["s17CustomReflectableP", "nan"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeEntry"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- ["s23CustomStringConvertibleP", "AxisDependency"]
+- !private ["s23CustomStringConvertibleP", "ComparisonResult"]
+- ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", "IChartDataSet"]
+- !private ["s23CustomStringConvertibleP", "NSUIColor"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_dataSets"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_leftAxisMax"]
+- !private ["s23CustomStringConvertibleP", "_leftAxisMin"]
+- !private ["s23CustomStringConvertibleP", "_rightAxisMax"]
+- !private ["s23CustomStringConvertibleP", "_rightAxisMin"]
+- !private ["s23CustomStringConvertibleP", "_xMax"]
+- !private ["s23CustomStringConvertibleP", "_xMin"]
+- !private ["s23CustomStringConvertibleP", "_yMax"]
+- !private ["s23CustomStringConvertibleP", "_yMin"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "calcMinMax"]
+- !private ["s23CustomStringConvertibleP", "caseInsensitiveCompare"]
+- !private ["s23CustomStringConvertibleP", "colors"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataSetIndex"]
+- !private ["s23CustomStringConvertibleP", "dataSets"]
+- !private ["s23CustomStringConvertibleP", "entryForXValue"]
+- !private ["s23CustomStringConvertibleP", "getDataSetIndexByLabel"]
+- !private ["s23CustomStringConvertibleP", "getFirstLeft"]
+- !private ["s23CustomStringConvertibleP", "getFirstRight"]
+- ["s23CustomStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s23CustomStringConvertibleP", "highlightEnabled"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialize"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "nan"]
+- !private ["s23CustomStringConvertibleP", "notifyDataChanged"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeDataSetByIndex"]
+- !private ["s23CustomStringConvertibleP", "removeEntry"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "x"]
+- !private ["s23CustomStringConvertibleP", "y"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "caseInsensitiveCompare"]
+- !private ["Se", "count"]
+- ["Se", "greatestFiniteMagnitude"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "nan"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "subscript"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- ["Sd", "greatestFiniteMagnitude"]
+- !private ["Sd", "nan"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "caseInsensitiveCompare"]
+- !private ["SE", "count"]
+- ["SE", "greatestFiniteMagnitude"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "nan"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "subscript"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- ["SQ", "AxisDependency"]
+- !private ["SQ", "ComparisonResult"]
+- ["SQ", "Double"]
+- ["SQ", "IChartDataSet"]
+- !private ["SQ", "NSUIColor"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "_dataSets"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "_leftAxisMax"]
+- !private ["SQ", "_leftAxisMin"]
+- !private ["SQ", "_rightAxisMax"]
+- !private ["SQ", "_rightAxisMin"]
+- !private ["SQ", "_xMax"]
+- !private ["SQ", "_xMin"]
+- !private ["SQ", "_yMax"]
+- !private ["SQ", "_yMin"]
+- !private ["SQ", "append"]
+- !private ["SQ", "calcMinMax"]
+- !private ["SQ", "caseInsensitiveCompare"]
+- !private ["SQ", "colors"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataSetIndex"]
+- !private ["SQ", "dataSets"]
+- !private ["SQ", "entryForXValue"]
+- !private ["SQ", "getDataSetIndexByLabel"]
+- !private ["SQ", "getFirstLeft"]
+- !private ["SQ", "getFirstRight"]
+- ["SQ", "greatestFiniteMagnitude"]
+- !private ["SQ", "highlightEnabled"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- !private ["SQ", "label"]
+- !private ["SQ", "left"]
+- !private ["SQ", "nan"]
+- !private ["SQ", "notifyDataChanged"]
+- !private ["SQ", "orderedSame"]
+- !private ["SQ", "print"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeDataSetByIndex"]
+- !private ["SQ", "removeEntry"]
+- !private ["SQ", "right"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "colors"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "entryForXValue"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "label"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeEntry"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "caseInsensitiveCompare"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "nan"]
+- ["s27ExpressibleByIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "nan"]
+- !private ["s23ExpressibleByNilLiteralP", "x"]
+- !private ["s23ExpressibleByNilLiteralP", "y"]
+- !private ["s26ExpressibleByStringLiteralP", "caseInsensitiveCompare"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "caseInsensitiveCompare"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "nan"]
+- ["SH", "AxisDependency"]
+- !private ["SH", "ComparisonResult"]
+- ["SH", "Double"]
+- ["SH", "IChartDataSet"]
+- !private ["SH", "NSUIColor"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "_dataSets"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "_leftAxisMax"]
+- !private ["SH", "_leftAxisMin"]
+- !private ["SH", "_rightAxisMax"]
+- !private ["SH", "_rightAxisMin"]
+- !private ["SH", "_xMax"]
+- !private ["SH", "_xMin"]
+- !private ["SH", "_yMax"]
+- !private ["SH", "_yMin"]
+- !private ["SH", "append"]
+- !private ["SH", "calcMinMax"]
+- !private ["SH", "caseInsensitiveCompare"]
+- !private ["SH", "colors"]
+- !private ["SH", "count"]
+- !private ["SH", "dataSetIndex"]
+- !private ["SH", "dataSets"]
+- !private ["SH", "entryForXValue"]
+- !private ["SH", "getDataSetIndexByLabel"]
+- !private ["SH", "getFirstLeft"]
+- !private ["SH", "getFirstRight"]
+- ["SH", "greatestFiniteMagnitude"]
+- !private ["SH", "highlightEnabled"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "initialize"]
+- !private ["SH", "label"]
+- !private ["SH", "left"]
+- !private ["SH", "nan"]
+- !private ["SH", "notifyDataChanged"]
+- !private ["SH", "orderedSame"]
+- !private ["SH", "print"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeDataSetByIndex"]
+- !private ["SH", "removeEntry"]
+- !private ["SH", "right"]
+- !private ["SH", "subscript"]
+- !private ["SH", "x"]
+- !private ["SH", "y"]
+- !private ["6Charts9HighlightC", "dataSetIndex"]
+- !private ["6Charts9HighlightC", "x"]
+- !private ["6Charts9HighlightC", "y"]
+- !private ["6Charts13IChartDataSetP", "addEntry"]
+- !private ["6Charts13IChartDataSetP", "axisDependency"]
+- !private ["6Charts13IChartDataSetP", "calcMinMaxY"]
+- !private ["6Charts13IChartDataSetP", "colors"]
+- !private ["6Charts13IChartDataSetP", "drawValuesEnabled"]
+- !private ["6Charts13IChartDataSetP", "entryCount"]
+- !private ["6Charts13IChartDataSetP", "entryForXValue"]
+- !private ["6Charts13IChartDataSetP", "highlightEnabled"]
+- !private ["6Charts13IChartDataSetP", "label"]
+- !private ["6Charts13IChartDataSetP", "removeEntry"]
+- !private ["6Charts13IChartDataSetP", "valueFont"]
+- !private ["6Charts13IChartDataSetP", "valueFormatter"]
+- !private ["6Charts13IChartDataSetP", "valueTextColor"]
+- !private ["6Charts13IChartDataSetP", "xMax"]
+- !private ["6Charts13IChartDataSetP", "xMin"]
+- !private ["6Charts13IChartDataSetP", "yMax"]
+- !private ["6Charts13IChartDataSetP", "yMin"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "caseInsensitiveCompare"]
+- ["s25LosslessStringConvertibleP", "greatestFiniteMagnitude"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "nan"]
+- !private ["s10MirrorPathP", "caseInsensitiveCompare"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "colors"]
+- !private ["SM", "count"]
+- !private ["SM", "entryForXValue"]
+- ["SM", "init"]
+- !private ["SM", "label"]
+- !private ["SM", "remove"]
+- !private ["SM", "removeAll"]
+- !private ["SM", "removeEntry"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "caseInsensitiveCompare"]
+- !private ["So9NSCopyingP", "caseInsensitiveCompare"]
+- !private ["So9NSCopyingP", "x"]
+- !private ["So9NSCopyingP", "y"]
+- !private ["So21NSItemProviderReadingP", "caseInsensitiveCompare"]
+- !private ["So21NSItemProviderWritingP", "caseInsensitiveCompare"]
+- !private ["So16NSMutableCopyingP", "caseInsensitiveCompare"]
+- ["So8NSObjectC", "AxisDependency"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "ChartDataEntry"]
+- !private ["So8NSObjectC", "ComparisonResult"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Highlight"]
+- ["So8NSObjectC", "IChartDataSet"]
+- ["So8NSObjectC", "IValueFormatter"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSUIColor"]
+- ["So8NSObjectC", "NSUIFont"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "YAxis"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_dataSets"]
+- ["So8NSObjectC", "_leftAxisMax"]
+- ["So8NSObjectC", "_leftAxisMin"]
+- ["So8NSObjectC", "_rightAxisMax"]
+- ["So8NSObjectC", "_rightAxisMin"]
+- ["So8NSObjectC", "_xMax"]
+- ["So8NSObjectC", "_xMin"]
+- ["So8NSObjectC", "_yMax"]
+- ["So8NSObjectC", "_yMin"]
+- ["So8NSObjectC", "accessibilityEntryLabelPrefix"]
+- ["So8NSObjectC", "accessibilityEntryLabelSuffix"]
+- ["So8NSObjectC", "accessibilityEntryLabelSuffixIsCount"]
+- ["So8NSObjectC", "addDataSet"]
+- ["So8NSObjectC", "addEntry"]
+- ["So8NSObjectC", "calcMinMax"]
+- ["So8NSObjectC", "calcMinMaxY"]
+- !private ["So8NSObjectC", "caseInsensitiveCompare"]
+- ["So8NSObjectC", "clearValues"]
+- ["So8NSObjectC", "contains"]
+- ["So8NSObjectC", "dataSetCount"]
+- !private ["So8NSObjectC", "dataSetIndex"]
+- ["So8NSObjectC", "dataSetLabels"]
+- ["So8NSObjectC", "dataSets"]
+- ["So8NSObjectC", "entryCount"]
+- ["So8NSObjectC", "entryForHighlight"]
+- ["So8NSObjectC", "getColors"]
+- ["So8NSObjectC", "getDataSetByIndex"]
+- ["So8NSObjectC", "getDataSetByLabel"]
+- ["So8NSObjectC", "getDataSetForEntry"]
+- ["So8NSObjectC", "getDataSetIndexByLabel"]
+- ["So8NSObjectC", "getFirstLeft"]
+- ["So8NSObjectC", "getFirstRight"]
+- ["So8NSObjectC", "getYMax"]
+- ["So8NSObjectC", "getYMin"]
+- ["So8NSObjectC", "highlightEnabled"]
+- ["So8NSObjectC", "indexOfDataSet"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initialize"]
+- ["So8NSObjectC", "isHighlightEnabled"]
+- ["So8NSObjectC", "maxEntryCountSet"]
+- ["So8NSObjectC", "notifyDataChanged"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "removeDataSet"]
+- ["So8NSObjectC", "removeDataSetByIndex"]
+- ["So8NSObjectC", "removeEntry"]
+- ["So8NSObjectC", "setDrawValues"]
+- ["So8NSObjectC", "setValueFont"]
+- ["So8NSObjectC", "setValueFormatter"]
+- ["So8NSObjectC", "setValueTextColor"]
+- !private ["So8NSObjectC", "x"]
+- ["So8NSObjectC", "xMax"]
+- ["So8NSObjectC", "xMin"]
+- !private ["So8NSObjectC", "y"]
+- ["So8NSObjectC", "yMax"]
+- ["So8NSObjectC", "yMin"]
+- ["So8NSObjectP", "AxisDependency"]
+- !private ["So8NSObjectP", "ComparisonResult"]
+- ["So8NSObjectP", "Double"]
+- ["So8NSObjectP", "IChartDataSet"]
+- !private ["So8NSObjectP", "NSUIColor"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_dataSets"]
+- !private ["So8NSObjectP", "_leftAxisMax"]
+- !private ["So8NSObjectP", "_leftAxisMin"]
+- !private ["So8NSObjectP", "_rightAxisMax"]
+- !private ["So8NSObjectP", "_rightAxisMin"]
+- !private ["So8NSObjectP", "_xMax"]
+- !private ["So8NSObjectP", "_xMin"]
+- !private ["So8NSObjectP", "_yMax"]
+- !private ["So8NSObjectP", "_yMin"]
+- !private ["So8NSObjectP", "calcMinMax"]
+- !private ["So8NSObjectP", "caseInsensitiveCompare"]
+- !private ["So8NSObjectP", "dataSetIndex"]
+- !private ["So8NSObjectP", "dataSets"]
+- !private ["So8NSObjectP", "getDataSetIndexByLabel"]
+- !private ["So8NSObjectP", "getFirstLeft"]
+- !private ["So8NSObjectP", "getFirstRight"]
+- !private ["So8NSObjectP", "highlightEnabled"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialize"]
+- !private ["So8NSObjectP", "notifyDataChanged"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "removeDataSetByIndex"]
+- !private ["So8NSObjectP", "removeEntry"]
+- !private ["So8NSObjectP", "x"]
+- !private ["So8NSObjectP", "y"]
+- !private ["So14NSSecureCodingP", "caseInsensitiveCompare"]
+- !private ["So8NSStringC", "caseInsensitiveCompare"]
+- ["Sj", "greatestFiniteMagnitude"]
+- !private ["Sj", "nan"]
+- !private ["Sq", "x"]
+- !private ["Sq", "y"]
+- !private ["Sk", "append"]
+- !private ["Sk", "colors"]
+- !private ["Sk", "count"]
+- !private ["Sk", "entryForXValue"]
+- ["Sk", "init"]
+- !private ["Sk", "label"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "removeAll"]
+- !private ["Sk", "removeEntry"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "caseInsensitiveCompare"]
+- !private ["Sm", "colors"]
+- !private ["Sm", "count"]
+- !private ["Sm", "entryForXValue"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "label"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeEntry"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "left"]
+- !private ["SY", "orderedSame"]
+- !private ["SY", "right"]
+- !private ["ST", "append"]
+- !private ["ST", "caseInsensitiveCompare"]
+- !private ["ST", "colors"]
+- !private ["ST", "count"]
+- !private ["ST", "entryForXValue"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "label"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "removeEntry"]
+- !private ["ST", "subscript"]
+- ["s13SignedNumericP", "greatestFiniteMagnitude"]
+- !private ["s13SignedNumericP", "nan"]
+- ["Sx", "greatestFiniteMagnitude"]
+- !private ["Sx", "nan"]
+- !private ["SS", "caseInsensitiveCompare"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "caseInsensitiveCompare"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "caseInsensitiveCompare"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "caseInsensitiveCompare"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["6Charts5YAxisC", "AxisDependency"]
+- ["s15_CVarArgAlignedP", "greatestFiniteMagnitude"]
+- !private ["s15_CVarArgAlignedP", "nan"]
+- ["s22_CVarArgPassedAsDoubleP", "greatestFiniteMagnitude"]
+- !private ["s22_CVarArgPassedAsDoubleP", "nan"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "colors"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "entryForXValue"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "label"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "removeEntry"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "caseInsensitiveCompare"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "greatestFiniteMagnitude"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "nan"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "greatestFiniteMagnitude"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "nan"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "caseInsensitiveCompare"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "caseInsensitiveCompare"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "caseInsensitiveCompare"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "caseInsensitiveCompare"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "caseInsensitiveCompare"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "greatestFiniteMagnitude"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "nan"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AxisDependency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ComparisonResult"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "IChartDataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_dataSets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_leftAxisMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_leftAxisMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_rightAxisMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_rightAxisMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_xMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_xMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_yMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_yMin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "calcMinMax"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "caseInsensitiveCompare"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSetIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSets"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDataSetIndexByLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getFirstLeft"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getFirstRight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "highlightEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notifyDataChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeDataSetByIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeEntry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "y"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "caseInsensitiveCompare"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "greatestFiniteMagnitude"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "nan"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s16_SwiftStringViewP", "caseInsensitiveCompare"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- "6Charts8AxisBaseC"
+- !private "6Charts5YAxisC14AxisDependencyO"
+- "SK"
+- "SB"
+- !private "Sb"
+- "s7CVarArgP"
+- "6Charts9ChartDataC"
+- !private "6Charts14ChartDataEntryC"
+- !private "6Charts18ChartDataEntryBaseC"
+- "Sl"
+- "SL"
+- !private "So18NSComparisonResultV"
+- "6Charts13ComponentBaseC"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SF"
+- "SH"
+- !private "6Charts9HighlightC"
+- !private "6Charts13IChartDataSetP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sj"
+- !private "Sq"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- "s13SignedNumericP"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "6Charts5YAxisC"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/mli/Desktop/Develope/VLogVideo/Pods/Headers/Public/RxAtomic/RxAtomic.modulemap"
+- "/Users/mli/Desktop/Develope/Swift/LBE_Demo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Users/mli/Desktop/Develope/VLogVideo/Pods/Headers/Public/RxSwift/RxSwift.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0fc79aa72f5151c41339064adfe450ec"

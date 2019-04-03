@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "8000536d4fbbe532ae9f0054f59860e6"
+build_time: [1554261890, 491044000]
+inputs:
+  "/Users/mli/Desktop/Develope/Swift/LBE_Demo/LBE_Demo/DrawViewController.swift": [1554261885, 0]
